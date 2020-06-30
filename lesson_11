@@ -1,0 +1,25 @@
+redis-cli
+-- 1 
+SADD ip 127.0.0.9
+
+SADD ip 128.0.0.2 123.4.5.6
+
+SCARD ip
+
+
+-- 2 (Не уверена, что правильно поняла задание)
+
+127.0.0.1:6379> SET Petr pety@yandex.ru
+OK
+
+127.0.0.1:6379> get Petr
+"pety@yandex.ru"
+
+127.0.0.1:6379> set pety@yandex.ru Petr
+OK
+
+127.0.0.1:6379> get Petr
+"pety@yandex.ru"
+
+
+
